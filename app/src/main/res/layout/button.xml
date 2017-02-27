@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="183dp"
+            android:layout_height="190dp"
+            android:src="@drawable/redbutton"
+            android:onClick="changeTextViewColorRed" />
+        <ImageButton
+            android:layout_width="199dp"
+            android:layout_height="188dp"
+            android:src="@drawable/bluebutton"
+            android:onClick="changeTextViewColorBlue"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textview"/>
+</LinearLayout>
